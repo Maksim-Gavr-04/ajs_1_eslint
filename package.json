@@ -1,0 +1,19 @@
+{
+  "name": "ajs_1_eslint",
+  "version": "1.0.0",
+  "description": "Очень важно следить за качеством кода в вашем проекте и следовать единым принципам кодирования в команде. В этом нам поможет ещё один инструмент - ESLint.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "Maksim-Gavr-04",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.10.0",
+    "@stylistic/eslint-plugin-js": "^2.8.0",
+    "eslint": "^9.10.0",
+    "globals": "^15.9.0"
+  }
+}
